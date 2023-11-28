@@ -1,0 +1,149 @@
+
+:summaryTableId: quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_configuration]]link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.data-id]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.data-id[quarkus.nacos-config.data-id]`
+
+
+[.description]
+--
+app-id
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_DATA_ID+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_DATA_ID+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.group]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.group[quarkus.nacos-config.group]`
+
+
+[.description]
+--
+group name
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_GROUP+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_GROUP+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|`DEFAULT_GROUP`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.namespace]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.namespace[quarkus.nacos-config.namespace]`
+
+
+[.description]
+--
+命名空间
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_NAMESPACE+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_NAMESPACE+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.server-addr]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.server-addr[quarkus.nacos-config.server-addr]`
+
+
+[.description]
+--
+地址
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_SERVER_ADDR+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_SERVER_ADDR+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.username]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.username[quarkus.nacos-config.username]`
+
+
+[.description]
+--
+用户名
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_USERNAME+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_USERNAME+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.password]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.password[quarkus.nacos-config.password]`
+
+
+[.description]
+--
+password
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_PASSWORD+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_PASSWORD+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.format]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.format[quarkus.nacos-config.format]`
+
+
+[.description]
+--
+format: properties, yaml, yml
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_FORMAT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_FORMAT+++`
+endif::add-copy-button-to-env-var[]
+-- a|
+`properties`, `yaml`, `yml` 
+|`properties`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.profile]]`link:#quarkus-nacos-config-io-github-divxpro-quarkus-client-nacos-runtime-nacos-config_quarkus.nacos-config.profile[quarkus.nacos-config.profile]`
+
+
+[.description]
+--
+profile,eg: dev , master etc
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_NACOS_CONFIG_PROFILE+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_NACOS_CONFIG_PROFILE+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+|===

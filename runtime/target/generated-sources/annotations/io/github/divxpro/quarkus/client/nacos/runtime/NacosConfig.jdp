@@ -1,0 +1,10 @@
+#
+#Tue Nov 28 18:46:27 CST 2023
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.group=group name
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.serverAddr=地址
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.profile=profile,eg\: dev , master etc
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.namespace=命名空间
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.username=用户名
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.password=password
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.dataId=app-id\n\n@asciidoclet
+io.github.divxpro.quarkus.client.nacos.runtime.NacosConfig.format=format\: properties, yaml, yml
